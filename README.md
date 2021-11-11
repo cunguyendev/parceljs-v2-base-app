@@ -4,7 +4,9 @@ Create an app about HTML/CSS/JS with ParcelJS V2 (Web application bundle)
 
 Author: Cu Nguyen &lt;[cunguyen.dev@gmail.com](cunguyen.dev@gmail.com)&gt;
 
-Deploy to Netlify: Updating...
+Deploy to Netlify: https://parceljs-v2-base-app.netlify.app/
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/cf575e0e-1b69-4a9d-b0b7-514c1b4b9ebe/deploy-status)](https://app.netlify.com/sites/parceljs-v2-base-app/deploys)
 
 ## Requirements
 
