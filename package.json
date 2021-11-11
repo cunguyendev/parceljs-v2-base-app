@@ -1,10 +1,11 @@
 {
   "name": "parceljs-v2-base-app",
   "version": "1.0.0",
-  "description": "Create an app about HTML/CSS/JS with Parcel (Web application bundle)",
+  "description": "Create an app about HTML/CSS/JS with ParcelJS V2 (Web application bundle)",
   "default": "index.html",
   "scripts": {
     "start": "rm -rf dist && rm -rf .parcel-cache && parcel src/index.html --no-cache --no-source-maps",
+    "dev": "rm -rf dist && rm -rf .parcel-cache && parcel src/index.html --no-cache --no-source-maps",
     "build": "rm -rf build && rm -rf .parcel-cache && parcel build src/index.html --no-cache --no-source-maps --dist-dir build",
     "reset": "rm -rf build && rm -rf .parcel-cache && rm -rf dist && rm -rf node_modules",
     "test": "echo \"Error: no test specified\" && exit 1"
